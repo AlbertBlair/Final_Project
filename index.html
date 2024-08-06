@@ -3,30 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home </title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="h_style.css">
+    <title>web-layout1</title>
 </head>
 <body>
 
-    <!-- header -->
-    <section class="header-container">
-        <header class="header-content">
-            <div class = "game-name">
-                <span>Code:KY Final Project</span>
-            </div>
+    <!-- HEADER SECTION -->
+    <section class = "header-container">
+        <header class = "header-content">
+            <div class = "proj-name">Code:KY Final Project</div>
 
-            <nav class="main-nav">
-                <ul id="navigation">
+            <nav class = "header-nav">
+                <ul id = "navigation">
                     <li>
-                        <a href = "QUIZ.html">QUIZ</a>
+                        <a href = "contact.html">CONTACT</a>
                     </li>
                     <li>
-                        <a href="Contact.html">CONTACT</a>
+                        <a href="QUIZ.HTML">QUIZ</a>
                     </li>
+                    <li>
+                        <a href="nav3">GITHUB</a>
+                    </li>
+                    <li>
+                        <a href="linkedin">LinkedIn</a>
+                    </li>
+                </ul>
             </nav>
+        </section>
         </header>
-    </section>
+ 
+        <!-- HERO SECTION -->
+        <section class="hero-container">
+            <div class="hero-content">
+                <h1>
+                    "WHOSE THAT POKEMON QUIZ"
+                </h1>
+                <p>"This quiz tests your knowledge of Pokemon. The quiz will provide you a random pokemon sprite, and four pokemon to pick from. Try to identify as many pokemon correctly as you can. The game will continue until every pokemon is shown, or you get three pokemon wrong. Do you have what it takes to be a Pokemon Master?!"</p>
+            </div>
+        </section>
 
+        <!-- ENGAGING SUBHEADING SECTION -->
+        <section class = "engage-container">
+            <div class = "engage-content">
+                <h2>
+                    "Generations 1 through 5!"
+                </h2>
+                <p>
+                    "Can you name them all?"
+                </p>
+            </div>
+        </section>
+
+        <!-- INTRODUCTION SECTION -->
+        <section class="intro-container">
+            <div class="image-content">
+                <img src= "img/Proj_pic.png" alt="Project Picture" class= "Proj-pic">
+            </div>
+            <div class = "intro-content">
+                <h2>"Project Details"</h2>
+                <p>"This project was created utilizing HTML, CSS, and JS. The data and images are retrieved by utilizing the PokeAPI. "</b></p>
+            </div>
+        </section>
+
+        <!-- Upcoming Projects Section -->
+        <section class = "project-container">
+            <div class="proj-title">
+                <h2>
+                    "UPCOMING PROJECTS"
+                </h2>
+            </div>
+            <div class="proj-content">
+                <img src="img/proj1.jpeg"  alt="Project 1" class="proj1">
+                <img src="img/proj2.png"  alt="Project 2" class="proj2">
+                <img src="img/proj3.png"  alt="Project 3" class= "proj3">
+            </div>
+            <div class= caption-text>
+                <h3>Self Driving Car (AI)</h3>
+                <h3>Pathfinding Algo</h3>
+                <h3>SQL Lite API Server</h3>
+            </div>
+        </section>
+
+        <!-- FOOTER SECTION -->
+        <section class="footer-container">
+            <footer class="footer-content">
+                <p> I do not own any rights to pokemon. Pokemon and All Respective Names are Trademark of Nintendo 1996 - 2024</p>
+            </footer>
+        </section>
+
+
+    <script src = "script.js"></script>
 </body>
 </html>
