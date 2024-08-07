@@ -1,1 +1,300 @@
 /* style page for QUIZ */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+    background: linear-gradient(0deg,  #fff 0%, #ff3535 100%);
+    color: #fff;
+    
+}
+
+/**********************************/
+/* ------- HEADER SECTION ------- */
+/**********************************/
+
+.header-container{
+    background-color: rgb(98, 98, 100);
+    width: 100%;
+    border-color: white;
+    border-style: solid;
+    border-radius: 30px;
+
+}
+
+.header-content{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    color: snow;
+}
+
+.proj-name{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: bold;
+    
+}
+
+/**************************************/
+/* ------- HEADER NAV SECTION ------- */
+/**************************************/
+
+    /* .header-nav {        
+        border-style: solid;
+        border-color: blue; 
+    } */
+
+    #navigation{ 
+        display: flex;
+        padding-top: 7.5px;
+        list-style-type: none;
+        justify-content: space-around;
+        color: snow;
+    }
+
+    #navigation li a{
+        color: snow;
+        text-decoration: none;
+        /* font-family: Arial, Helvetica, sans-serif; */
+        font-weight: bold;
+    }
+
+.container {
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+    gap: 90px
+}
+
+.header {
+    margin: 0;
+    font-family: "Anton", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    height: 100%;
+    text-transform: Capitalize;
+
+
+}
+
+/**********************************/
+/* ------- pokemonImg SECTION ------- */
+/**********************************/
+
+#pokemonImg{
+    filter: brightness(0%);
+    height: 300px;
+    width: 100%;
+
+}
+
+#pokemonImg.correct{
+    filter: brightness(100%);
+    height: 300px;
+    width: 100%;
+    /* box-shadow: 2px 2px 4px black; */
+
+}
+
+.choices-container{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+/**********************************/
+/* ------- Button SECTION ------- */
+/**********************************/
+
+button{
+    height: 52px;
+    margin: 10px;
+    width: calc(50% - 20px);
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 40px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: rgba(251, 248, 248, 0.865);
+    
+}
+
+button:hover {
+    background-color: #2be8e5;
+}
+
+button.correct {
+    background-color: #5aae76;
+    color: #fff;
+}
+
+button.wrong {
+    background-color: #ea0094;
+    color: black;
+}
+
+#score {
+    display: flex;
+    min-width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+    background-image: url('pball_bck.png');
+    background-size: cover;
+    background-position: center;
+    background-size: 100%;
+
+}
+
+/**********************************/
+/* ------- Body Tier SECTION ------- */
+/**********************************/
+
+body.greatball{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+    background: linear-gradient(0deg,  #fff 0%, #1351bb 100%);
+    color: #fff;
+}
+
+body.ultraball{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: ans-serif;
+    background: linear-gradient(0deg,  #fff 0%, #131010 100%);
+    color: #fff;
+}
+
+body.masterball{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(0deg,  #fff 0%, #990db5 100%);
+    color: #fff;
+}
+
+body.gsball{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+    background: linear-gradient(0deg,  #fff 0%, #f7b32c 100%);
+    color: #fff;
+}
+
+/**********************************/
+/* ------- Score Tier SECTION ------- */
+/**********************************/
+
+#score.greatball {
+    display: flex;
+    min-width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+    background-image: url('gball_bck.png');
+    background-size: cover;
+    background-position: center;
+    background-size: 100%;
+
+}
+
+#score.ultraball {
+    display: flex;
+    min-width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+    background-image: url('uball_bck.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-size: 60%;
+
+}
+
+#score.masterball {
+    display: flex;
+    min-width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+    background-image: url('mball_bck.png');
+    background-size: cover;
+    background-position: center;
+    background-size: 59%;
+
+}
+
+#score.gsball {
+    display: flex;
+    min-width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+    background-image: url('gsball_bck.png');
+    background-size: cover;
+    background-position: center;
+    background-size: 65%;
+
+}
