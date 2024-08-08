@@ -160,7 +160,7 @@ button.wrong {
     font-weight: 700;
     text-align: center;
     color: black;
-    background-image: url('pball_bck.png');
+    background-image: url('img/pball_bck.png');
     background-size: cover;
     background-position: center;
     background-size: 100%;
@@ -238,7 +238,7 @@ body.gsball{
     font-weight: 700;
     text-align: center;
     color: black;
-    background-image: url('gball_bck.png');
+    background-image: url('img/gball_bck.png');
     background-size: cover;
     background-position: center;
     background-size: 100%;
@@ -256,7 +256,7 @@ body.gsball{
     font-weight: 700;
     text-align: center;
     color: black;
-    background-image: url('uball_bck.jpeg');
+    background-image: url('img/uball_bck.jpeg');
     background-size: cover;
     background-position: center;
     background-size: 60%;
@@ -274,7 +274,7 @@ body.gsball{
     font-weight: 700;
     text-align: center;
     color: black;
-    background-image: url('mball_bck.png');
+    background-image: url('img/mball_bck.png');
     background-size: cover;
     background-position: center;
     background-size: 59%;
@@ -292,7 +292,7 @@ body.gsball{
     font-weight: 700;
     text-align: center;
     color: black;
-    background-image: url('gsball_bck.png');
+    background-image: url('img/gsball_bck.png');
     background-size: cover;
     background-position: center;
     background-size: 65%;
