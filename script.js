@@ -10,7 +10,7 @@ const missedTotal = document.getElementById('missed');
 let gameStatus = "go"
 let tier = '';
 const body = document.getElementById('body');
-const scoreimg = document.getElementById('score');
+const scoreimg = document.getElementById('score-container');
 
 
 
