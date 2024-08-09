@@ -15,7 +15,7 @@ const scoreimg = document.getElementById('score-container');
 
 
 /*************************************************************************************************/
-// FEATURE #4 Retrieve data from a third-party API and use it to display something within your app.
+// FEATURE #3 Retrieve data from a third-party API and use it to display something within your app.
 /*************************************************************************************************/
 // Get pokemon data from PokeAPI by using pokemon's ID number
 async function fetchPokemonData(id){
@@ -76,7 +76,7 @@ pokeImgElement.src = pokemon.sprites.other.home.front_default;
 
 
 /**********************************************************************************************************************/
-// FEATURE #2. Analyze data that is stored in arrays, objects, sets or maps and display information about it in your app.
+// FEATURE #4. Analyze data that is stored in arrays, objects, sets or maps and display information about it in your app.
 /**********************************************************************************************************************/
 
 //  create multiple choice buttons and event for option chosen by user
@@ -90,7 +90,7 @@ choicesContainer.appendChild(button);
 }
 
 /****************************************************************************************************/
-// FEATURE #3 Create a function that accepts two or more input parameters and 
+// FEATURE #2 Create a function that accepts two or more input parameters and 
 //returns a value that is calculated or determined by the inputs.
 /****************************************************************************************************/
 
